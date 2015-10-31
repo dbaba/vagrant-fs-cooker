@@ -29,3 +29,8 @@ The instance will be terminated automatically when the script finishes with exit
 ```bash
 $ vagrant destroy -f
 ```
+
+## Revision History
+
+* 1.0.0
+  - Initial Release
