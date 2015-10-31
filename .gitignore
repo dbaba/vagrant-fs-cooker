@@ -1,0 +1,4 @@
+*.ext4
+auto_conf.sh
+.vagrant
+*.exit
