@@ -6,8 +6,8 @@ A file system (e.g. ext4) image cooking tool on Vagrant box.
 ## Installation
 
 ```bash
-(host)   $ git clone https://github.com/dbaba/fs-cooker.git
-(host)   $ cd vagrant-fs-cooker
+$ git clone https://github.com/dbaba/vagrant-fs-cooker.git
+$ cd vagrant-fs-cooker
 ```
 
 ### Starting without Auto-Conf Script
@@ -31,6 +31,9 @@ $ vagrant destroy -f
 ```
 
 ## Revision History
+
+* 1.0.1
+  - Fix an issue where setup.sh always ignored AUTO_CONF_SCRIPT
 
 * 1.0.0
   - Initial Release
