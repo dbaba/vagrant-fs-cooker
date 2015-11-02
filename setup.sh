@@ -3,11 +3,11 @@
 AUTO_CONF_SCRIPT_PATH="${AUTO_CONF_SCRIPT_PATH:-/vagrant/auto_conf.sh}"
 
 function err {
- echo -e "\033[91m$1\e[0m"
+ echo -e "\033[91m$1\033[0m"
 }
 
 function info {
- echo -e "\033[92m$1\e[0m"
+ echo -e "\033[92m$1\033[0m"
 }
 
 for f in mount_fs umount_fs
