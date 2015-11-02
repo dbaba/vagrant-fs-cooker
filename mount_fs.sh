@@ -6,11 +6,11 @@ LOCAL_FSIMG_PATH="${HOME}/${FSIMG}"
 MOUNT_POINT=${MOUNT_POINT:-"/mnt/fsimg"}
 
 function err {
- echo -e "\033[91m$1\e[0m"
+ echo -e "\033[91m$1\033[0m"
 }
 
 function info {
- echo -e "\033[92m$1\e[0m"
+ echo -e "\033[92m$1\033[0m"
 }
 
 if [ ! -f ${LOCAL_FSIMG_PATH} ]; then
