@@ -6,8 +6,8 @@ A file system (e.g. ext4) image cooking tool on Vagrant box.
 ## Installation
 
 ```bash
-(host)   $ git clone https://github.com/dbaba/fs-cooker.git
-(host)   $ cd vagrant-fs-cooker
+$ git clone https://github.com/dbaba/vagrant-fs-cooker.git
+$ cd vagrant-fs-cooker
 ```
 
 ### Starting without Auto-Conf Script
