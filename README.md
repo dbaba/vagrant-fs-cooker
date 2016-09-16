@@ -1,7 +1,17 @@
 vagrant-fs-cooker
 ===
 
+[![GitHub release](https://img.shields.io/github/release/dbaba/vagrant-fs-cooker.svg)](https://github.com/dbaba/vagrant-fs-cooker/releases/latest)
+[![License MIT](https://img.shields.io/github/license/dbaba/vagrant-fs-cooker.svg)](http://opensource.org/licenses/MIT)
+
 A file system (e.g. ext4) image cooking tool on Vagrant box.
+
+## Prerequisites
+
+1. Vagrant 1.8.1+
+1. VirtualBox 5+
+1. Git
+1. Internet Connection
 
 ## Installation
 
@@ -30,7 +40,13 @@ The instance will be terminated automatically when the script finishes with exit
 $ vagrant destroy -f
 ```
 
+## Examples
+
+ * [docker-edison-yocto](https://github.com/dbaba/docker-edison-yocto) ... A docker image building script to create a poky-yocto edison image
+
 ## Revision History
+* 1.1.0
+  - Update vagrant box image
 
 * 1.0.1
   - Fix an issue where setup.sh always ignored AUTO_CONF_SCRIPT
