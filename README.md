@@ -42,6 +42,8 @@ $ vagrant destroy -f
  * [docker-edison-yocto](https://github.com/dbaba/docker-edison-yocto) ... A docker image building script to create a poky-yocto edison image
 
 ## Revision History
+* 1.1.0
+  - Update vagrant box image
 
 * 1.0.1
   - Fix an issue where setup.sh always ignored AUTO_CONF_SCRIPT
