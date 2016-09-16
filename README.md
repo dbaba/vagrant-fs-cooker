@@ -3,6 +3,13 @@ vagrant-fs-cooker
 
 A file system (e.g. ext4) image cooking tool on Vagrant box.
 
+## Prerequisites
+
+1. Vagrant 1.8.1+
+1. VirtualBox 5+
+1. Git
+1. Internet Connection
+
 ## Installation
 
 ```bash
@@ -29,6 +36,10 @@ The instance will be terminated automatically when the script finishes with exit
 ```bash
 $ vagrant destroy -f
 ```
+
+## Examples
+
+ * [docker-edison-yocto](https://github.com/dbaba/docker-edison-yocto) ... A docker image building script to create a poky-yocto edison image
 
 ## Revision History
 
