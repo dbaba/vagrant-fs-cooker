@@ -1,6 +1,9 @@
 vagrant-fs-cooker
 ===
 
+[![GitHub release](https://img.shields.io/github/release/dbaba/vagrant-fs-cooker.svg)](https://github.com/dbaba/vagrant-fs-cooker/releases/latest)
+[![License MIT](https://img.shields.io/github/license/dbaba/vagrant-fs-cooker.svg)](http://opensource.org/licenses/MIT)
+
 A file system (e.g. ext4) image cooking tool on Vagrant box.
 
 ## Prerequisites
